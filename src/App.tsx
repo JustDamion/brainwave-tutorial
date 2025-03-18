@@ -1,5 +1,4 @@
 import ButtonGradient from "./assets/svg/ButtonGradient.tsx";
-import Button from "./components/Button.tsx";
 import Header from "./components/Header.tsx";
 
 const App = () => {
