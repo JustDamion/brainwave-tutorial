@@ -1,5 +1,17 @@
-function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+import ButtonGradient from "./assets/svg/ButtonGradient.tsx";
+import Header from "./components/Header.tsx";
+import Hero from "./components/Hero.tsx";
+
+const App = () => {
+  return (
+    <>
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        <Header />
+        <Hero />
+      </div>
+      <ButtonGradient />
+    </>
+  );
+};
 
 export default App;
