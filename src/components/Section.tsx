@@ -5,9 +5,9 @@ import SectionSvg from "../assets/svg/SectionSvg";
 interface SectionProps {
   className?: string;
   id?: string;
-  crosses: any;
-  crossesOffset?: number;
-  customPaddings?: number;
+  crosses?: any;
+  crossesOffset?: string;
+  customPaddings?: boolean;
   children?: any;
 }
 
