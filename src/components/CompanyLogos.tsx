@@ -15,9 +15,9 @@ const CompanyLogos: React.FC<Props> = ({ className }) => {
         {companyLogos.map((logo) => (
           <li
             className="flex items-center justify-center flex-1 h-[8.5rem]"
-            key={logo}
+            key={logo.id}
           >
-            <img src={logo} width={134} height={28} alt={logo} />
+            <img src={logo.imageUrl} width={134} height={28} alt={logo.title} />
           </li>
         ))}
       </ul>
