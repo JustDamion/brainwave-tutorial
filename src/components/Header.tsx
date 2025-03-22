@@ -1,12 +1,12 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import { useState } from "react";
 
-import { brainwave } from "../assets/index.ts";
-import { navigation } from "../constants/index.ts";
-import Button from "./Button.tsx";
-import MenuSvg from "../assets/svg/MenuSvg.tsx";
-import { HamburgerMenu } from "./design/Header.tsx";
+import { brainwave } from "../assets";
+import { navigation } from "../constants";
+import Button from "./Button";
+import MenuSvg from "../assets/svg/MenuSvg";
+import { HamburgerMenu } from "./design/Header";
+import { useState } from "react";
 
 const Header = () => {
   const pathname = useLocation();
@@ -63,6 +63,7 @@ const Header = () => {
               </a>
             ))}
           </div>
+
           <HamburgerMenu />
         </nav>
 
